@@ -11,7 +11,7 @@ package com.bridgelabz.utility;
 
 import java.io.*;
 
-public class UtilityIO {
+public class IOUtility {
 	
 	public static void poem(String animal, String sound) throws FileNotFoundException {
 		File file=new File("/home/slot2/eclipse-workspace/BridgelabzSectionC2/src/com/bridgelabz/files/poem.txt");

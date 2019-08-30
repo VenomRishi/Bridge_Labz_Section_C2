@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 
-import com.bridgelabz.utility.UtilityIO;
+import com.bridgelabz.utility.IOUtility;
 
 public class PoemIO {
 
@@ -26,31 +26,31 @@ public class PoemIO {
 		userinput=scanner.next().charAt(0);
 		switch (userinput) {
 		case 'a':
-			UtilityIO.poem("Chicks", "chick");
+			IOUtility.poem("Chicks", "chick");
 			break;
 		case 'b':
-			UtilityIO.poem("Duck", "quack");
+			IOUtility.poem("Duck", "quack");
 			break;
 		case 'c':
-			UtilityIO.poem("Turkey", "gobble");
+			IOUtility.poem("Turkey", "gobble");
 			break;
 		case 'd':
-			UtilityIO.poem("Pig", "oink");
+			IOUtility.poem("Pig", "oink");
 			break;
 		case 'e':
-			UtilityIO.poem("Cow", "moo");
+			IOUtility.poem("Cow", "moo");
 			break;
 		case 'f':
-			UtilityIO.poem("Cat", "meow");
+			IOUtility.poem("Cat", "meow");
 			break;
 		case 'g':
-			UtilityIO.poem("Mule", "Heehaw");
+			IOUtility.poem("Mule", "Heehaw");
 			break;
 		case 'h':
-			UtilityIO.poem("Dog", "bow");
+			IOUtility.poem("Dog", "bow");
 			break;
 		case 'i':
-			UtilityIO.poem("Turtle", "nerp");
+			IOUtility.poem("Turtle", "nerp");
 			break;
 		default:
 			System.out.println("Select proper input");

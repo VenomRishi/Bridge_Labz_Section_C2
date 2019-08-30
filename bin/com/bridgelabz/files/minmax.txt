@@ -1,1 +1,1 @@
-Max is :1 and Min is :9
+5Max is :1 and Min is :9
